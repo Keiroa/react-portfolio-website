@@ -1,1 +1,0 @@
-All Assets such as images go in this directory.
