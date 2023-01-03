@@ -3,7 +3,7 @@ import './certification.css';
 
 const Certification = () => {
   return (
-    <div>Certification</div>
+    <section id="certification">Certification</section>
   )
 }
 
