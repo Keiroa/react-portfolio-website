@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.css';
 
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineUser, AiOutlineSafetyCertificate } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 
+
+const icons = [
+  { href: '#', Icon: AiOutlineHome },
+  { href: '#about', Icon: AiOutlineUser },
+  { href: '#experience', Icon: BiBook },
+  { href: '#certification', Icon: AiOutlineSafetyCertificate },
+  { href: '#services', Icon: RiServiceLine },
+  { href: '#contact', Icon: BiMessageSquareDetail }
+];
+
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#');
+
   return (
     <nav>
-      <a href="#"><AiOutlineHome/></a>
-      <a href="#about"><AiOutlineUser/></a>
-      <a href="#experience"><BiBook/></a>
-      <a href="#services"><RiServiceLine/></a>
-      <a href="#contact"><BiMessageSquareDetail/></a>
+      {icons.map(icon => (
+      <a key={icon.href} href={icon.href} onClick={() => 
+        setActiveNav(icon.href)} className={activeNav === icon.href ? 'active' : ''}><icon.Icon /></a>
+      ))}
     </nav>
   )
 }

@@ -62,7 +62,7 @@ header {
 /* ====== MEDIA DEVICE CSS ======*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 50vh;
+        height: 100vh;
     }
 }
 
