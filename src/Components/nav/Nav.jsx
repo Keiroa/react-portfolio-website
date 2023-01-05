@@ -21,7 +21,9 @@ const Nav = () => {
   return (
     <nav>
       {icons.map(icon => (
-      <a key={icon.href} href={icon.href} onClick={() => 
+      <a key={icon.href}
+      href={icon.href}
+      onClick={() => 
         setActiveNav(icon.href)} className={activeNav === icon.href ? 'active' : ''}><icon.Icon /></a>
       ))}
     </nav>

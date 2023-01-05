@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-v2: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-v2: rgba(77, 181, 255, 0.4);
+  --color-bg: #24191d;
+  --color-bg-v2: #4c191d;
+  --color-primary: #ff6261;
+  --color-primary-v2: #ae191d;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -56,7 +56,9 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 10rem;
+  /* === Manipulate header of each section === */
+  padding-top: 5rem;
   height: 100vh;
 }
 
