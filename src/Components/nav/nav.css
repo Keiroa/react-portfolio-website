@@ -1,7 +1,7 @@
 nav {
     background: rgba(0, 0, 0, 0.3);
-    width: auto;
-    padding: 0.7rem 1.7rem;
+    width: max-content;
+    padding: 0.5rem 0.5rem;
     z-index: 2;
     position: fixed;
     left:  50%;
@@ -10,6 +10,7 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    margin-top: 10px;
 }
 
 nav a {
