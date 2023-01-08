@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #24191d;
-  --color-bg-v2: #4c191d;
+  --color-bg-v2: #39191d;
   --color-primary: #ff6261;
   --color-primary-v2: #ae191d;
   --color-white: #fff;
@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -56,7 +56,7 @@ h1 {
 }
 
 section {
-  margin-top: 10rem;
+  margin-top: 8rem;
   /* === Manipulate header of each section === */
   padding-top: 5rem;
   height: 100vh;
