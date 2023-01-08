@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 
 import AboutCard from './AboutCard';
-import Profile from '../../Assets/profile.PNG';
+import Profile from '../../Assets/profile-about.jpg';
 
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
